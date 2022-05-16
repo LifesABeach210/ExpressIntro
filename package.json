@@ -1,0 +1,22 @@
+{
+  "name": "intro",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js ; npm run browser",
+    "div":"nodemon app.js",
+    "browser":"open -a Safari http://localhost:3000"
+
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
