@@ -4,9 +4,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node app.js ; npm run browser",
+    "start":"node app.js",
     "div":"nodemon app.js",
-    "browser":"open -a Safari http://localhost:3000"
+    "browser":"open -a Safari http://localhost:4000/apples & node app.js"
 
 
   },
